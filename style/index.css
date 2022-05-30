@@ -1,0 +1,43 @@
+#navbar{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    font-size: larger;
+    
+}
+#menu{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+#coffee_div{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#add_to_bucket{
+    height:35px;
+    font-size: large;
+    color: bisque;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h3{
+    color: brown;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
